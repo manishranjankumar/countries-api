@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(42, 42, 46, 0.852);
+}
+.heading {
+    text-decoration: line-through;
+    text-align: center;
+    font-style: italic;
+    color: rgb(12, 176, 222);
+    background-color: black;
+}
+
+main>div {
+    width: 98vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-image: url(./assets/earth-11595_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    color: aliceblue;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+    margin: 1vh;
+}
+
+a {
+    color: aliceblue;
+}
+
+.section1 {
+    width: 48vw;
+    height: 98vh;
+    /* border: 2px solid rgb(67, 172, 81); */
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+section+section {
+    width: 47vw;
+    height: 98vh;
+    /* border: 2px solid rgb(154, 41, 90); */
+}
+
+.section1>div {
+    width: 47vw;
+    height: 10vh;
+    /* border: 2px solid red; */
+}
+
+.section1>div+div {
+    width: 47vw;
+    height: 86vh;
+    /* border: 2px solid rgb(42, 9, 108); */
+}
+
+.section1>img {
+    margin: 5px;
+    width: 98%;
+}
+
+/* Section 2 */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.section2>div {
+    width: 47vw;
+    height: 19vh;
+    /* border: 2px solid rgb(19, 206, 66); */
+}
